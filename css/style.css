@@ -1840,3 +1840,18 @@ form label {
   color: rgb(255, 255, 255);
 }
 
+p.wewed{
+  font-family: "Sacramento", Arial, serif;
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+  font-weight: 1000;
+}
+
+@media screen and (max-width: 768px) {
+  p.wewed{
+    font-family: "Sacramento", Arial, serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+  }
+}
