@@ -76,7 +76,7 @@ li span {
 .fa-heart{
     position: absolute;
     left: 7.4em;
-    top: 9.2em;
+    top: 10.8em;
     color: rgb(255, 0, 0);
     animation: pulse 1s ease infinite;
 }
@@ -106,10 +106,6 @@ li span {
     
     .fa-heart{
         visibility: hidden;
-        position: absolute;
-        left: 11.8rem;
-        top: 20rem;
-        color: rgb(255, 0, 0);
     }
 
     .fa{
@@ -117,7 +113,8 @@ li span {
     }
 }
 
-.male-pic{
+.huma-pic{
+    padding-top: 10%;
     text-align: center;
 }
 
@@ -331,7 +328,10 @@ li span {
 .timehead{
     text-align: center;
     font-size: 4rem;
-    font-family: "Work Sans", Arial, sans-serif;
+    font-family: "Sacramento", Arial, serif;
+    font-weight: 1000;
+    color: rgb(255, 0, 0);
+    padding-top: 10%;
 }
 
 @media screen and (max-width: 768px) {
@@ -344,6 +344,7 @@ li span {
 .invitab{
     margin: 2em auto 0 auto;
     width: 100%;
+    padding-bottom: 6%;
 }
 
 .invitab th{
@@ -376,4 +377,8 @@ th{
 button{
     background-color: rgba(255, 255, 255, 0);
     border: rgb(255, 255, 255);
+}
+
+.inviteinfo{
+    padding-top: 10%;
 }
