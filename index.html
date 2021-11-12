@@ -5,14 +5,24 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"/>
         <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
         <script src="js/script.js"></script>
     </head>
     <body>
         <header class="bgimg">
-          <div class="headline">
+          <div class="menu">
+            <table class="menop">
+              <tr>
+                <td class="menops"><a id="kln" href = "#top">home</a></td>
+                <td class="menops"><a id="kln" href = "#hums">info</a></td>
+                <td class="menops"><a id="kln" href = "#timdfh">timeline</a></td>
+                <td class="menops"><a id="kln" href = "#invijhvjhvk">location</a></td>
+              </tr>
+            </table>
+          </div>
+          <div class="headline" id="top">
             <p class="wewed">Debbrota Weds Priyodarshini</p>
           </div>
           <div id="countdown">
@@ -25,7 +35,7 @@
           </div>
         </header>
         
-        <div class="huma-pic">
+        <div class="huma-pic" id="hums">
             <div class="lefmal">
                 <p class="male-name">Dr. Debbrota Paul Chowdhury</p>
                 <img src="asset/debbrota.jpg" alt="groom" class="img-gol">
@@ -37,7 +47,7 @@
             </div>
         </div>
 
-        <p class="timehead">The Voyage of the Dawn Treader</p>
+        <p class="timehead" id="timdfh">The Voyage of the Dawn Treader</p>
 
         <div class="pretim">
           <div class="timeline">
@@ -81,7 +91,7 @@
         </div>
 
 
-        <div class="inviteinfo">
+        <div class="inviteinfo" id="invijhvjhvk">
             <table class="invitab">
                 <tr>
                     <th><button class="recepl" onclick="hideWeddi()">Reception</a></th>
@@ -110,6 +120,9 @@
                     <td class="weddi">Start walking</td>
                 </tr>
               </table>
+        </div>
+        <div class="topper">
+          <a href="#top"><i class="fa fas fa-arrow-up"></i></a>
         </div>
     </body>
 </html>

@@ -76,7 +76,7 @@ li span {
 .fa-heart{
     position: absolute;
     left: 7.4em;
-    top: 10.8em;
+    top: 11.4em;
     color: rgb(255, 0, 0);
     animation: pulse 1s ease infinite;
 }
@@ -381,4 +381,50 @@ button{
 
 .inviteinfo{
     padding-top: 10%;
+}
+
+.menu{
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 1rem;
+}
+
+.menop{
+    margin: auto;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-right: 2%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.menops{
+    padding-right: 10rem;
+}
+
+#kln{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .menop{
+        font-size: 0.4rem;
+        padding-right: 0%;
+        border-spacing: 0rem;
+    }
+
+    .menops{
+        padding-right: 2rem;
+    }
+}
+
+.topper{
+    text-align: center;
+    opacity: 0.4;
+}
+
+.fa-arrow-up{
+    color: rgb(0, 0, 0);
 }
