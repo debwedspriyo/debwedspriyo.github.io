@@ -203,8 +203,8 @@ li span {
 .container::after {
     content: '';
     position: absolute;
-    width: 8rem;
-    height: 8rem;
+    width: 10rem;
+    height: 10rem;
     right: -65px;
     background-image: url('https://picsum.photos/800');
     background-position: center;
@@ -284,7 +284,7 @@ li span {
   
   /* The actual content */
 .content {
-    padding: 20px 30px;
+    padding: 20px 80px 30px 60px;
     background-color: rgb(103, 57, 231);
     position: relative;
     border-radius: 6px;
@@ -315,8 +315,8 @@ li span {
     /* Make sure all circles are at the same spot */
     .left::after, .right::after {
     left: 0px;
-    width: 5rem;
-    height: 5rem;
+    width: 7.5rem;
+    height: 7.5rem;
     }
     
     /* Make all right containers behave like the left ones */
