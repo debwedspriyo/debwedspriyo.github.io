@@ -103,10 +103,6 @@ li span {
         height: 4em;
         width: 4em;
     }
-    
-    .fa-heart{
-        visibility: hidden;
-    }
 
     .fa{
         font-size: 2em;
