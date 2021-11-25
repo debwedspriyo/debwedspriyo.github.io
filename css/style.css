@@ -368,7 +368,6 @@ li span {
     font-family: "Sacramento", Arial, serif;
     font-weight: 1000;
     color: rgb(255, 0, 0);
-    padding-top: 10%;
 }
 
 @media screen and (max-width: 768px) {
