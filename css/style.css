@@ -74,9 +74,9 @@ li span {
 }
 
 .fa-heart{
-    position: absolute;
-    left: 8.2em;
-    top: 11.4em;
+    /* position: absolute;
+    left: 7.86em;
+    top: 11.4em; */
     color: rgb(255, 0, 0);
     animation: pulse 1s ease infinite;
 }
@@ -118,6 +118,15 @@ li span {
     text-align: center;
 }
 
+.humax{
+    text-align: center;
+}
+
+.humtab{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .male-name{
     float: left;
     font-family: "Sacramento", Arial, serif;
@@ -125,6 +134,34 @@ li span {
     padding-right: 2em;
     font-size: 2em;
     font-weight: 1000;
+}
+
+.maleu-name{
+    font-family: "Sacramento", Arial, serif;
+    font-size: 2em;
+    font-weight: 1000;
+    padding-top: 2em;
+}
+
+.baap{
+    padding-top: 0em;
+    font-size: 1.5em;
+}
+
+@media all and (max-width: 768px) {    
+    .humtab{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .maleu-name{
+        font-size: 0.7em;
+    }
+
+    .baap{
+        font-size: 0.5em;
+    }
 }
 
 .female-name{
