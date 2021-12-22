@@ -269,9 +269,7 @@ li span {
 }
 
 .r3::after{
-    background-image: url('../asset/loader.gif');
-    -ms-transform: rotate(90deg); /* IE 9 */
-    transform: rotate(90deg);
+    background-image: url('../asset/7.jpg');
 }
   
   /* Place the container to the left */
