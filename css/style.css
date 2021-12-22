@@ -236,8 +236,8 @@ li span {
 .container::after {
     content: '';
     position: absolute;
-    width: 10rem;
-    height: 10rem;
+    width: 16rem;
+    height: 16rem;
     right: -65px;
     background-image: url('https://picsum.photos/800');
     background-position: center;
@@ -320,9 +320,10 @@ li span {
   /* The actual content */
 .content {
     padding: 20px 80px 30px 60px;
-    background-color: rgb(103, 57, 231);
+    background-color: rgb(255, 255, 255);
     position: relative;
     border-radius: 6px;
+    color: rgb(255, 255, 255);
 }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
