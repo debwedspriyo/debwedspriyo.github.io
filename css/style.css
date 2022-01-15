@@ -314,6 +314,21 @@ li span {
 .right::after {
     left: -65px;
 }
+
+.blessit{
+    text-align: center;
+    font-family: "Sacramento", Arial, serif;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    padding-top: 2em;
+}
+
+@media screen and (max-width: 768px) {
+    .blessit{
+        font-size: 1.6em;
+    }
+}
   
   /* The actual content */
 .content {
@@ -321,7 +336,7 @@ li span {
     background-color: rgb(255, 255, 255);
     position: relative;
     border-radius: 6px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
